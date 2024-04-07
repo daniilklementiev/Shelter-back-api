@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "qVyWGCTxSRxdDDl+jlPYxdZycRHpB2shMYewC/anx98mcBLYPaWjNkvzi46C05EvZdyFHh+spS8yZH6j9fZQRw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danik\\RiderProjects\\shelter-api\\shelter-api\\shelter-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danik\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.5.0\\microsoft.identitymodel.abstractions.7.5.0.nupkg.sha512",
+    "C:\\Users\\danik\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.5.0\\microsoft.identitymodel.jsonwebtokens.7.5.0.nupkg.sha512",
+    "C:\\Users\\danik\\.nuget\\packages\\microsoft.identitymodel.logging\\7.5.0\\microsoft.identitymodel.logging.7.5.0.nupkg.sha512",
+    "C:\\Users\\danik\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.0\\microsoft.identitymodel.tokens.7.5.0.nupkg.sha512",
+    "C:\\Users\\danik\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.0\\system.identitymodel.tokens.jwt.7.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
