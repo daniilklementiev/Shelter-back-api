@@ -47,6 +47,18 @@ public class AccountController : ControllerBase
         return Ok($"User '{model.username}' authenticated successfully. Password '{model.password}' was checked in plain text.");
     }
 
+    [HttpGet]
+    [Route("customer/{customerId}")]
+    public ActionResult<CustomerProfileDto> GetCustomerProfile(int customerId)
+    {
+        var customerProfile = // _profileService.GetCustomerProfileById(customerId);
+        if (customerProfile == null)
+        {
+            return NotFound();
+        }
+        return Ok(customerProfile);
+    }
+
     private string GenerateJwtToken(string username)
     {
         var tokenHandler = new JwtSecurityTokenHandler(); // creating a token handler
