@@ -150,7 +150,6 @@ public class AdvtController : ControllerBase
         }
 
         var fileName = $"{Guid.NewGuid()}{extension}";
-        // Directory.GetCurrentDirectory(), "wwwroot", "wwwroot", "avatars"
         var filePath = Path.Combine("D:\\home",  fileName);
 
         using (var stream = new FileStream(filePath, FileMode.Create))
