@@ -7,5 +7,6 @@ public class AdvtRequestModel
     public string Description { get; set; } = string.Empty;
     public string Price { get; set; } = string.Empty;
     public string Category { get; set; } = string.Empty;
+    public string AnimalType { get; set; } = string.Empty;
     public string City { get; set; } = string.Empty;
 }

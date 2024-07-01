@@ -14,6 +14,12 @@ public class CosmosDbService
         _container = cosmosClient.GetContainer(databaseName, containerName);
     }
 
+    // return container
+    public Container GetContainer()
+    {
+        return _container;
+    }
+
     public async Task<IEnumerable<T>> GetItemsAsync<T>(string query, params (string, object)[] parameters)
     {
         var queryDefinition = new QueryDefinition(query);

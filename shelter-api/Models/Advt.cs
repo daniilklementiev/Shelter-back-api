@@ -10,6 +10,7 @@ public class Advt
     public string Description { get; set; } = string.Empty;
     public string Price { get; set; } = string.Empty;
     public string Category { get; set; } = string.Empty;
+    public string AnimalType { get; set; } = string.Empty;
     public string City { get; set; } = string.Empty;
     public String Date { get; set; } = DateTime.Now.ToString("yyyy-MM-dd HH:mm");
     public string? Image { get; set; }

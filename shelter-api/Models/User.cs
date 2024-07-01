@@ -4,7 +4,7 @@ namespace Shelter.Models;
 
 public class User
 {
-    public String id { get; set; }
+    public string id { get; set; }
     public string partitionKey { get; set; } = "user";
     public string Login { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;

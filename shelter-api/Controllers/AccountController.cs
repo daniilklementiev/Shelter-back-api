@@ -191,11 +191,6 @@ public class AccountController : ControllerBase
     [Route("AuthenticateUser")]
     public IActionResult AuthenticateUser(String userEmail, String userPassword)
     {
-        // Check if the userLogin exists
-       // if(GetUserByLogin(userEmail) == null)
-       // {
-       //     return BadRequest("User not found");
-       // }
 
         // Check if the userLogin and userPassword not empty
         if (string.IsNullOrEmpty(userEmail) || string.IsNullOrEmpty(userPassword))
